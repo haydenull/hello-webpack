@@ -2,7 +2,7 @@
   "name": "hello-webpack",
   "version": "1.0.0",
   "description": "",
-  "main": "main.js",
+  "main": "dist/bundle.js",
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,6 +11,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "babel-loader": "^8.1.0",
     "webpack": "^4.43.0"
   },
   "devDependencies": {
